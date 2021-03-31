@@ -3,9 +3,9 @@
 
 
 # Building with Active Record: Micro-Reddit
- # Project : Active records in Rails
 
-> This project provides a understanding on models in active record by building a Micro-Reddit app, making associations, and those are:
+## This project provides a understanding on models in active record by building a Micro-Reddit app, making associations, and those are:
+
 - User can have many Posts and Comments.
 - Posts must belong to a User and a Post can have many Comments. 
 - Comments must belong to a Post and a User
@@ -20,13 +20,13 @@
 
 # Getting Started
 
-- Run this command in your OS terminal: `git clone https://github.com/notrexxx/RuboGod-linter.git` to get a copy of the project.
+- Run this command in your OS terminal: `git clone https://github.com/notrexxx/micro-reddit.git` to get a copy of the project.
 
 # Usage
 To run the application please:
 
 - Start a new Terminal 
-- Go to the directory where you cloned the RuboGod linter
+- Go to the directory where you cloned the Micro-Reddit repository
 - Type:
 ```
 bundle install
@@ -35,31 +35,22 @@ press ENTER and wait.
 
 - Type:
 ```
- cd bin
-```
-and press ENTER
-
-- Type:
-```
- ruby main.rb 
+ rails db:migrate
 ```
 and press ENTER
 
 
-# Rspec
+# Use the application
 
-- Start a new Terminal 
-- Go to the directory where you cloned the RuboGod linter
-- Type:
+- Run IRB Rails console
 ```
-rspec
+rails console
 ```
-and press ENTER
+- To test the app, execute the following commands from the IRB console.
 
-![screenshot](assets/screenshot3.png)
-
-- Start a new Terminal 
-- Go to the directory where you cloned the repository
+- User.all
+- Post.all
+- Comment.all
 
 # Author
 
@@ -78,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/notrexxx/RuboGod-linter/issues).
+Feel free to check the [issues page](https://github.com/notrexxx/micro-reddit/issues).
 
 # Acknowledgments
 
