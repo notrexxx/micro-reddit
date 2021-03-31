@@ -4,7 +4,7 @@
 
 # Building with Active Record: Micro-Reddit
 
-## This project provides a understanding on models in active record by building a Micro-Reddit app, making associations, and those are:
+This project provides a understanding on models in active record by building a Micro-Reddit app, making associations, and those are:
 
 - User can have many Posts and Comments.
 - Posts must belong to a User and a Post can have many Comments. 
